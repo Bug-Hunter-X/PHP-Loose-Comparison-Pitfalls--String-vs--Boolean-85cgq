@@ -1,0 +1,3 @@
+# PHP Loose Comparison Bug
+
+This repository demonstrates a common error in PHP stemming from loose comparisons between strings and booleans.  The `bug.php` file showcases the incorrect usage of `==`, while `bugSolution.php` provides the corrected implementation using `===` for strict comparison.  Understanding this distinction is crucial for writing robust and reliable PHP code.  Loose comparison can lead to unexpected behavior and difficult-to-debug errors.  Always prioritize strict comparisons (`===`) when dealing with type-sensitive conditions to avoid these pitfalls.  This example highlights the importance of careful consideration of data types and comparison operators in PHP programming.
